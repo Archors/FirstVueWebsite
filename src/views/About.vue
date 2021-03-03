@@ -17,11 +17,11 @@
       </tr>
       <tr>
         <td>Design</td>
-        <td>Photoshop...</td>
+        <td>Photoshop,Figma,Canva, Adobe XD...</td>
       </tr>
       <tr>
         <td>Design</td>
-        <td>Photoshop...</td>
+        <td>Photoshop,...</td>
       </tr>
       <tr>
         <td>Design</td>
@@ -57,5 +57,18 @@
   .card-content p
     line-height: 1.5
     margin: 30px auto
+
+  table
+    border-spacing: 0px
+    margin: 50px auto
+    tr th, tr td
+      border : 1px solid white
+      border-top: none
+      padding: 10px
+      text-align: center
+      &:first-of-type
+        border-left: none
+      &:nth-of-type(2)
+        border-right: none
 
 </style>
