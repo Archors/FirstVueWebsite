@@ -21,7 +21,7 @@
       </tr>
       <tr>
         <td>Design</td>
-        <td>Photoshop,...</td>
+        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor velit fugit aspernatur veniam itaque, magni minima. Natus, qui dolorem. Deserunt saepe itaque cum ipsum vitae culpa reiciendis asperiores laborum voluptate.</td>
       </tr>
       <tr>
         <td>Design</td>
@@ -31,21 +31,22 @@
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore excepturi perspiciatis eos repellat praesentium aspernatur molestiae quidem in quos placeat nulla modi, accusamus ratione animi optio sapiente quas vel ex.</p>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, saepe, deleniti animi minus nulla earum sit maiores officia sapiente excepturi repellat modi nesciunt dolorum consectetur amet voluptas facere asperiores nobis?</p>
   </div>
+  
 </template>
 
 <style lang="sass" scoped>
   .about-card
     background: #333
     padding: 3em
-    border-radius : 10px
+    border-radius: 10px
     color: white
     .card-title
       display: flex
       align-items: center
       background: #222
-      border-radius : 10px
+      border-radius: 10px
       .avatar
-        border 1px solid rgba(255, 255, 255, 0.4)
+        border: 1px solid rgba(255, 255, 255, 0.4)
         border-radius: 50%
         margin: 0 30px
     .title-text-content
@@ -62,7 +63,7 @@
     border-spacing: 0px
     margin: 50px auto
     tr th, tr td
-      border : 1px solid white
+      border: 1px solid white
       border-top: none
       padding: 10px
       text-align: center

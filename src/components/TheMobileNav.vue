@@ -1,22 +1,22 @@
 <template>
-    <section class="nav">
-        <div class="nav-logo">
-            <img src="../assets/vue.png" alt="logo" class="avatar" height="160px">
-        </div>
-        <h1>This is the mobile view</h1>
-        <div class="nav-menu">
-            <ul class="nav-menu-list">
-                <li class="nav-list-item">About me</li>
-                <li class="nav-list-item">Github</li>
-            </ul>
-        </div>
-    </section>
+  <section class="nav">
+    <div class="nav-logo">
+      <img src="../assets/vue.png" alt="logo" class="avatar" height="160px" />
+    </div>
+    <h1>This is the mobile view</h1>
+    <div class="nav-menu">
+      <ul class="nav-menu-list">
+        <li class="nav-list-item">About me</li>
+        <li class="nav-list-item">Github</li>
+        <li class="nav-list-item">About me</li>
+        <li class="nav-list-item">Github</li>
+      </ul>
+    </div>
+  </section>
 </template>
 
 <script>
-export default {
-    
-}
+export default {};
 </script>
 
 <style lang="sass" scoped>
@@ -37,15 +37,12 @@ export default {
     margin: 0
     color: white
     li
-        width: 50%
-        text-align : center
+        width: 25%
+        text-align: center
         background: #555
         padding: 10px 0
         cursor: pointer
         transition: background 300ms ease-in-out
         &:hover
             background: #333
-        &:first-of-type
-            border-bottom: 5px solid #222
-
 </style>
